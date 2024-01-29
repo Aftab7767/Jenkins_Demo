@@ -8,5 +8,7 @@ public void scriptTest()
 {
 	String browser=System.getProperty("browser");
 	String env = System.getProperty("env");
+	System.out.println(browser);
+	System.out.println(env);
 }
 }
